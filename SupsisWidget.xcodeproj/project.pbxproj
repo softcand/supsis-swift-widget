@@ -3,17 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5BAFB14F2CB9CB9700812ED2 /* SupsisChatViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAFB14E2CB9CB9700812ED2 /* SupsisChatViewRepresentable.swift */; };
-		5BAFB1512CB9CC6600812ED2 /* SupsisSwiftWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAFB1502CB9CC6600812ED2 /* SupsisSwiftWidget */; };
 		5BD1E7A42CB9C0E000F1649D /* SupsisWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E7A32CB9C0E000F1649D /* SupsisWidgetApp.swift */; };
 		5BD1E7A62CB9C0E000F1649D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E7A52CB9C0E000F1649D /* ContentView.swift */; };
 		5BD1E7A82CB9C0E100F1649D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1E7A72CB9C0E100F1649D /* Assets.xcassets */; };
 		5BD1E7AC2CB9C0E100F1649D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1E7AB2CB9C0E100F1649D /* Preview Assets.xcassets */; };
-		5BD1E7B42CB9C7AA00F1649D /* SupsisSwiftWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 5BD1E7B32CB9C7AA00F1649D /* SupsisSwiftWidget */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD1E7B42CB9C7AA00F1649D /* SupsisSwiftWidget in Frameworks */,
-				5BAFB1512CB9CC6600812ED2 /* SupsisSwiftWidget in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +89,6 @@
 			);
 			name = SupsisWidget;
 			packageProductDependencies = (
-				5BD1E7B32CB9C7AA00F1649D /* SupsisSwiftWidget */,
-				5BAFB1502CB9CC6600812ED2 /* SupsisSwiftWidget */,
 			);
 			productName = SupsisWidget;
 			productReference = 5BD1E7A02CB9C0E000F1649D /* SupsisWidget.app */;
@@ -125,7 +119,6 @@
 			);
 			mainGroup = 5BD1E7972CB9C0E000F1649D;
 			packageReferences = (
-				5BD1E7B22CB9C7AA00F1649D /* XCLocalSwiftPackageReference "../SupsisSwiftWidget" */,
 			);
 			productRefGroup = 5BD1E7A12CB9C0E000F1649D /* Products */;
 			projectDirPath = "";
@@ -374,24 +367,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		5BD1E7B22CB9C7AA00F1649D /* XCLocalSwiftPackageReference "../SupsisSwiftWidget" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../SupsisSwiftWidget;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5BAFB1502CB9CC6600812ED2 /* SupsisSwiftWidget */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SupsisSwiftWidget;
-		};
-		5BD1E7B32CB9C7AA00F1649D /* SupsisSwiftWidget */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SupsisSwiftWidget;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BD1E7982CB9C0E000F1649D /* Project object */;
 }
